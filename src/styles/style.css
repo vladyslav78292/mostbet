@@ -48,7 +48,7 @@ header {
 }
 
 .wrapper {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -147,7 +147,7 @@ a {
   border-radius: 15px;
   margin-bottom: 20px;
   padding: 10px;
-  width: 100%;
+  width: 95%;
 }
 
 section {
@@ -160,9 +160,10 @@ table {
   border-collapse: collapse;
   margin: 20px 0;
 }
+
 table td {
   text-align:center;
-  border: 1px solid #fa5e00;
+  border: 1px solid #FA8100;
   padding:10px;
 }
 
