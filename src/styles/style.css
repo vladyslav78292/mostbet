@@ -135,12 +135,11 @@ a {
 }
 
 .content_page {
-  padding: 70px 40px 20px 50px;
+  padding: 70px 40px 20px 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: #fff;
-  width: 95%;
 }
 
 .content_page section {
@@ -163,7 +162,7 @@ table {
 }
 table td {
   text-align:center;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid #fa5e00;
   padding:10px;
 }
 
@@ -226,6 +225,23 @@ td > a {
 
 .menuBurger {
   display: none;
+}
+
+footer {
+  padding: 30px 0 100px 0;
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.copy span {
+  color: white;
+  padding: 0 5px;
+  font-size: 15px;
 }
 
 @media (max-width: 1024px) {
