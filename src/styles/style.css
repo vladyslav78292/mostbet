@@ -257,7 +257,8 @@ footer {
 }
 
 .spor {
-  max-height: 700px;
+  max-height: 570px;
+  min-width: 220px;
 }
 
 .kayit {
@@ -267,12 +268,13 @@ footer {
 .destek {
   width: 30%;
   margin-top: 30px;
-  max-width: 250px;
+  max-width: 190px;
 }
 
 .giris {
-  width: 30%;
-  max-width: 350px;
+  width: 23%;
+  max-width: 200px;
+  max-height: 250px;
 }
 
 .menu {
@@ -350,6 +352,10 @@ section:first-of-type {
   color: white;
 }
 
+.bahis, .piyango, .android, .ios {
+  width: 60%;
+}
+
 @media (max-width: 1024px) {
   .image_container {
     flex-direction: column;
@@ -358,6 +364,10 @@ section:first-of-type {
   .kayit {
     margin-top: -30px;
     width: 100%;
+  }
+
+  .destek {
+    max-width: 260px;
   }
 }
 
